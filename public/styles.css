@@ -17,6 +17,11 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #b3f5f1;
+  min-width: 235px;
+  max-width: 235px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 1px #3E4349;
 }
 
 aside .logo {
@@ -112,7 +117,7 @@ section .wrapper h1 {
 section .wrapper p {
   color: #3E4349;
   margin-bottom: 10px;
-
+  line-height: 27px;
 }
 
 .wrapper .information {
@@ -145,4 +150,28 @@ footer {
 
 footer p {
   color: #888;
+}
+
+section .wrapper .books {
+  margin-top: 20px;
+} 
+
+section .wrapper .book .info {
+  display: flex;
+}
+
+section .wrapper .book h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+section .wrapper .book span {
+  display: inline-flex;
+  font-weight: bold;
+  color: #3E4349;
+  margin-right: 10px;
+}
+
+section .wrapper .book p {
+  line-height: 17px;
 }
