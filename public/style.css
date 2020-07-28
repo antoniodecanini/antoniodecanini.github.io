@@ -42,6 +42,7 @@ body {
 }
 
 .info h1 {
+  text-align: center;
   font-size: 48px;
   letter-spacing: 5px;
 }
@@ -59,8 +60,9 @@ body {
   width: 125px;
 }
 
-.social .icon {
+.social a {
   position: relative;
+  background-size: cover;
   width: 50px;
   height: 50px;
 }
